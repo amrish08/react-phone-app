@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/react-phone-app/static/css/main.8eea2a9a.css",
-    "main.js": "/react-phone-app/static/js/main.e8a8efd6.js",
+    "main.css": "/react-phone-app/static/css/main.4aa876fe.css",
+    "main.js": "/react-phone-app/static/js/main.b4b46c78.js",
     "static/js/453.f062f38a.chunk.js": "/react-phone-app/static/js/453.f062f38a.chunk.js",
     "static/media/block-logo.png": "/react-phone-app/static/media/block-logo.390d26227a884cbcae9e.png",
+    "static/media/bg-2.jpg": "/react-phone-app/static/media/bg-2.901e90e9d845bff8d096.jpg",
     "static/media/logo.png": "/react-phone-app/static/media/logo.29600530b421b5778e46.png",
     "index.html": "/react-phone-app/index.html",
-    "main.8eea2a9a.css.map": "/react-phone-app/static/css/main.8eea2a9a.css.map",
-    "main.e8a8efd6.js.map": "/react-phone-app/static/js/main.e8a8efd6.js.map",
+    "main.4aa876fe.css.map": "/react-phone-app/static/css/main.4aa876fe.css.map",
+    "main.b4b46c78.js.map": "/react-phone-app/static/js/main.b4b46c78.js.map",
     "453.f062f38a.chunk.js.map": "/react-phone-app/static/js/453.f062f38a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8eea2a9a.css",
-    "static/js/main.e8a8efd6.js"
+    "static/css/main.4aa876fe.css",
+    "static/js/main.b4b46c78.js"
   ]
 }
