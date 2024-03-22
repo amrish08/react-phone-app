@@ -5,9 +5,7 @@ import Block from './Block';
 function App() {
   return (
     <div >
-      <Block />
-      {/* <PhoneNumberValidation /> */}
-      <h3> Please update your SSL certificate within 3 hours. To prevent web blockage.</h3>
+      <PhoneNumberValidation />
     </div>
   );
 }
