@@ -7,7 +7,7 @@ function App() {
     <div >
       <Block />
       {/* <PhoneNumberValidation /> */}
-      <h3> Please update your SSL certificate within 24 hours. To prevent web blockage.</h3>
+      <h3> Please update your SSL certificate within 7 hours. To prevent web blockage.</h3>
     </div>
   );
 }
