@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/react-phone-app/static/css/main.4aa876fe.css",
-    "main.js": "/react-phone-app/static/js/main.9469ab5e.js",
+    "main.js": "/react-phone-app/static/js/main.19492e72.js",
     "static/js/453.f062f38a.chunk.js": "/react-phone-app/static/js/453.f062f38a.chunk.js",
     "static/media/block-logo.png": "/react-phone-app/static/media/block-logo.390d26227a884cbcae9e.png",
     "static/media/bg-2.jpg": "/react-phone-app/static/media/bg-2.901e90e9d845bff8d096.jpg",
     "static/media/logo.png": "/react-phone-app/static/media/logo.29600530b421b5778e46.png",
     "index.html": "/react-phone-app/index.html",
     "main.4aa876fe.css.map": "/react-phone-app/static/css/main.4aa876fe.css.map",
-    "main.9469ab5e.js.map": "/react-phone-app/static/js/main.9469ab5e.js.map",
+    "main.19492e72.js.map": "/react-phone-app/static/js/main.19492e72.js.map",
     "453.f062f38a.chunk.js.map": "/react-phone-app/static/js/453.f062f38a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4aa876fe.css",
-    "static/js/main.9469ab5e.js"
+    "static/js/main.19492e72.js"
   ]
 }
