@@ -6,9 +6,9 @@ import UnderMaintenance from './UnderMaintenance';
 function App() {
   return (
     <div >
-      {/* <PhoneNumberValidation /> */}
       {/* <UnderMaintenance /> */}
-      <Block />
+      {/* <Block /> */}
+      <PhoneNumberValidation />
     </div>
   );
 }

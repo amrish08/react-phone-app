@@ -1,6 +1,6 @@
 import React from "react";
 import blocklogo from "./Assets/Images/block-logo.png";
-import  "./Assets/Images/header.css";
+// import  "./Assets/Images/header.css";
 function block() {
   return (<>
      <div className="header">MALUKMAN</div>
