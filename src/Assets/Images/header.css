@@ -1,0 +1,38 @@
+.header{
+    text-align: center;
+    font-size:xxx-large;
+    color: white;
+    background-color:rgb(23, 117, 206);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    text-align: center;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    font-size: x-large;
+    padding: 22%;
+    margin-top: -1px;
+    max-width: 1500px;
+}
+
+.action{
+    color: red;
+    font-style: italic;
+}
+
+.error{
+    padding: 10px;
+    transform: translate(0px,60px);
+    color: antiquewhite;
+}
+
+.note{
+    margin-top: 10px;
+}
+
+.notify{
+    margin-top: 40px;
+    font-style: italic;
+    text-decoration: underline;
+}
