@@ -11,15 +11,15 @@ function App() {
     <div >
       {/* <PhoneNumberValidation /> */}
       {/* <UnderMaintenance /> */}
-      {/* <Block /> */}
-      <BrowserRouter>
+      <Block />
+      {/* <BrowserRouter>
         <Routes>
-          <Route path="/" element={<PhoneNumberValidation />}></Route>
+          <Route path="" element={<PhoneNumberValidation />}></Route>
           <Route path="/data" element={<Data />}></Route>
           <Route path="/users" element={<Users />}></Route>
           <Route path="/block" element={<Block />}></Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   );
 }
