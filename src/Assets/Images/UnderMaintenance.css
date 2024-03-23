@@ -1,5 +1,9 @@
 .maint{
     justify-content: center;
     margin-left: 500px;
-margin-top: -10px;
+    margin-top: 1px;
+}
+
+.container{
+    padding: 150px;
 }

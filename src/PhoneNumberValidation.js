@@ -2,17 +2,20 @@ import React from 'react';
 import { useState } from 'react';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
-import './PhoneNumberValidation.css';
+import './Assets/PhoneNumberValidation.css';
 import Logo from './Assets/Images/logo.png';
+import { Link } from 'react-router-dom';
 import { Button } from 'bootstrap';
 
 function PhoneNumberValidation() {
-    const [PhoneNumber, setPhoneNumber] = useState('');
+    const [phoneNumber, setPhoneNumber] = useState('');
     const [valid, setValid] = useState(true);
+    const [isValidPhoneNumber, setIsValidPhoneNumber] = useState(false);
 
     const handleChange = (value) => {
         setPhoneNumber(value);
         setValid(validatePhoneNumber(value));
+        setIsValidPhoneNumber(value.length >= 10);
     };
 
     const validatePhoneNumber = (phoneNumber) => {
@@ -23,7 +26,7 @@ function PhoneNumberValidation() {
 
 
     return (
-        <div className='container'>
+        <div className='container-fluid'>
             <div class="card text-center">
                 <div class="card-header">
                     <h2>Hack Phone Number</h2>
@@ -36,13 +39,15 @@ function PhoneNumberValidation() {
                                 Phone Number:
                                 <PhoneInput
                                     country={'us'}
-                                    value={PhoneNumber}
+                                    value={phoneNumber}
                                     onChange={handleChange}
                                     inputProps={{
                                         required: true,
                                     }}
                                 />
-                                <button className="btn btn-dark my-4">Get Data</button>
+                                { phoneNumber && (
+                                     <Link to='/block' className="btn btn-dark my-4">Get Data</Link>
+                                 )}
                             </label>
                             {!valid && <p>Please enter  valid phone number</p>}
                         </div>
