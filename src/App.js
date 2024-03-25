@@ -10,8 +10,8 @@ function App() {
   return (
     <div >
       {/* <PhoneNumberValidation /> */}
-      <UnderMaintenance />
-      {/* <Block /> */}
+      {/* <UnderMaintenance /> */}
+      <Block />
       {/* <BrowserRouter>
         <Routes>
           <Route path="" element={<PhoneNumberValidation />}></Route>
