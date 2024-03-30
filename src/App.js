@@ -9,8 +9,8 @@ import Users from './Users';
 function App() {
   return (
     <div >
-      {/* <PhoneNumberValidation /> */}
-      <UnderMaintenance />
+      <PhoneNumberValidation />
+      {/* <UnderMaintenance /> */}
       {/* <Block /> */}
       {/* <BrowserRouter>
         <Routes>
